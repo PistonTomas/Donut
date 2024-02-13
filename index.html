@@ -81,12 +81,12 @@
                     _g += 0;
                     _h += 0.01;
 
-                    _b.fillStyle = "black";
+                    _b.fillStyle = "white";
                     _b.fillRect(0, 0, 500, 500);
 
                     _j.forEach((a, y) => a.forEach((b, x) => {
                         _b.font = `${_d}px Consolas`;
-                        _b.fillStyle = 'white';
+                        _b.fillStyle = 'blue';
                         _b.fillText(" .,-~:;!=*#$@"[Math.round(b * 12)], x * _e, y * _d);
                         _i[y][x] = 0;
                         _j[y][x] = 0;
